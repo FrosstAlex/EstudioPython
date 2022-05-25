@@ -1,3 +1,4 @@
 este proyecto va a ser un programaque va a tener todos los personajes de star wars
 el cual elegiras un nombre de personaje, y el programa te dira toda la info sobre el personaje
 se le añadira interfaz grafica y un link a wikipedia, tiene que decir por voz y texto la info
+tambien se empleara una base de datos para no depender de internet para utilizar la aplicacion
