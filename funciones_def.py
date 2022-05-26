@@ -25,6 +25,15 @@ def derechos_mayorEdad():
 def miFuncion2(variable1, variable2):
     #conjunto de instrucciones
 '''
-
+def mayoria_edad(nombre, edad):
+    print(f"Segun la edad de {nombre}, sus derechos son: ")
+    if edad >= 18:
+        derechos_humanos()
+        derechos_mayorEdad()
+    else:
+        derechos_humanos()
+mayoria_edad("Alex", 39)
+mayoria_edad("Mari", 24)
+mayoria_edad("josemaria",9)
 
     
