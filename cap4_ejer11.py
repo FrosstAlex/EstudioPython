@@ -86,9 +86,12 @@ while True:
     if menu == 1:
        nombre = input("Inroduzca nombre->")
        telefono = input("Introduzca el telefono->")
+       edad = input("introduzca la edad->")
+       sexo = input("introduzca el sexo->")
        
        if nombre not in agenda:
            agenda[nombre] = telefono
+           agenda[edad] = sexo
            print("Contacto agregado!!")                          
        else:
            print("Contacto existente...")
@@ -103,8 +106,9 @@ while True:
     
     elif menu == 3:
         print("Agenda de contactos")
-        for clave, valor in agenda.items():
-            print(f"Nombre {clave} Telefono {valor}")
+        for nombre, telefono in agenda.items():
+            print(f"Nombre{nombre} Telefono{telefono}")
+            
     
     elif menu == 4:
         print("Saliendo de agenda...")
