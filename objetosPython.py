@@ -16,9 +16,6 @@ todos tienen 4 ruedas(pero no todas las ruedas son iguales), todos tienen ventan
 '''
 #sintaxis
 
-from mailbox import NoSuchMailboxError
-
-
 class Perro: # buenas practicas es escribir la primera letra mayuscula de una clase
     #constructor
     def __init__(self):
